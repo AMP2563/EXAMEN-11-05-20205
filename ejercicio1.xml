@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<expediente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="ejercicio1.xsd" idExpediente="EXP2025-001">
-    <estado>en tramite</estado>
+<expediente idExpediente="EXP2025-001">
+    <estado>en trámite</estado>
     <periodo>
         <inicio>2025-01-15</inicio>
         <fin>2025-03-20</fin>
