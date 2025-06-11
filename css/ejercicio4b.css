@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 800px;
+}
+
+.tutorial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.tutorial img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+    .contenedor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Estilos para pantallas muy grandes */
+@media (min-width: 1024px) {
+    .contenedor {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
