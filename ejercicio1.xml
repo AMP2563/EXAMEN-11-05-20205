@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<expediente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ejercicio1.xsd" idExpediente="EXP2025-001">
+    <estado>en tramite</estado>
+    <periodo>
+        <inicio>2025-01-15</inicio>
+        <fin>2025-03-20</fin>
+    </periodo>
+    <cliente>
+        <dni>12345678A</dni>
+        <nombre>Juan Pérez</nombre>
+        <direcion>Calle del Pez, 4</direcion>
+    </cliente>
+    <procuradores>
+        <procurador>
+            <dni>87654321B</dni>
+            <nombre>Ana López</nombre>
+            <direccion>Juagado de Guardia, 3</direccion>
+        </procurador>
+    </procuradores>
+</expediente>

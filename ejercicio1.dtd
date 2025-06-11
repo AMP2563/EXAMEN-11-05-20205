@@ -1,0 +1,13 @@
+<!ELEMENT expediente (estado,periodo,cliente,procuradores)>
+<!ATTLIST expediente idExpediente CDATA #REQUIRED>
+<!ATTLIST estado tipo (en_tramite | finalizado | archivado) "en tramite">
+<!ELEMENT periodo (inicio,fin)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT fin (#PCDATA)>
+<!ELEMENT cliente (dni,nombre,direcion)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direcion (#PCDATA)>
+<!ELEMENT procuradores (procurador)>
+<!ELEMENT procurador (dni,nombre,direccion)>
+<!ELEMENT direccion (#PCDATA)>
