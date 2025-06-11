@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+        "montana montana bosque bosque rio rio rio rio"
+        "montana montana bosque bosque rio rio rio rio"
+        "desierto . . . rio rio rio rio"
+        "desierto ciudad ciudad ciudad ciudad ciudad ciudad ciudad"
+        "desierto ciudad ciudad ciudad ciudad ciudad ciudad ciudad"
+        ". ciudad ciudad ciudad ciudad ciudad . ."; 
+    gap: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.montana {
+        grid-area: montana;
+    }
+
+.bosque {
+        grid-area: bosque;
+}
+
+.rio {
+    grid-area: rio;
+}
+
+.desierto {
+    grid-area: desierto;
+}
+
+.ciudad {
+    grid-area: ciudad;
+}
+
+
+
