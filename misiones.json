@@ -1,0 +1,24 @@
+{
+    "misiones": [
+        {
+            "nombreMision": "exploración de Marte",
+            "empresa": "Exploraciones Manolo",
+            "astronautas": ["Manuela", "Pepa", "Ernesto"],
+            "vehiculo": {
+                "nombre": "Marte I",
+                "tipo": "Cohete de transicion",
+                "capacidad": "tres personas"
+            },
+
+            "destino": {
+                "planeta": "Marte",
+                "coordenadas": {
+                    "latitud": "23.5",
+                    "longitud": "-37"
+                },
+            "enCurso": "true"    
+            }
+
+        }
+    ]
+}
